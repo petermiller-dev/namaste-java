@@ -11,6 +11,11 @@
 //   getName();
 // console.log(getName)
 
-var getName = () => {
-  console.log("namaste Javascript")
+// var getName = () => {
+//   console.log("namaste Javascript")
+// }
+
+
+var getName2 = function () {
+  
 }
