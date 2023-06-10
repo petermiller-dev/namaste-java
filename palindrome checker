@@ -1,0 +1,7 @@
+function palindrome(str) {
+    str = str.replace
+    
+  return true;
+}
+
+palindrome("eye");
