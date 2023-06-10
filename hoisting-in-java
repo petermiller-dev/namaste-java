@@ -16,15 +16,15 @@
 // }
 
 
-var getName2 = function () {
+// var getName2 = function () {
   
+// }
+
+function a() {
+    var b = 10;
+    c();
+    function c(){
+        console.log (b);
+    }
 }
 
-
-
-hoursperson1 [bounds + blocked] 8:00 - 15:00
-
-
-hoursperson2 [bounds + blocked] 9:00 - 14:00 
-
-parse avalable times - negate any times that are less than given meeting times
