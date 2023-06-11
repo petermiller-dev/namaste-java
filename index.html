@@ -47,13 +47,27 @@ console.warn("oh no!!!")
 console.dir(p)
 
     // Grouping together
-    console.log("")
+    
+    dogs.forEach(dog => {
+      console.groupCollaps('${dog.name}')
+      console.log('This is ${dog.name}');
+      console.log('${dog.name} is ${dog.age} years old');
+      console.log('${dog.name} is ${dog.age *7} dog years old');
+      console.groupEnd('${dog.name}'
+    })
 
     // counting
-console.log("")
-
+   
+console.count("")
+console.countReset
     // timing
-    console.log("")
+    console.time('fetching data');
+    fetch('https://api.github.com/users/wesbos')
+    .then(data => data.json())
+    .then(data => {
+      console.timeEnd('fetching data')
+      console.log(data)
+    })
 
   </script>
 </body>
